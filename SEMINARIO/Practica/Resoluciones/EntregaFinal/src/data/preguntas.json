@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es la suma de los ángulos de un triángulo?",
+        "correcta": "180º",
+        "incorrecta1": "360º",
+        "incorrecta2": "90º"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál es la capital de Francia?",
+        "correcta": "París",
+        "incorrecta1": "Londres",
+        "incorrecta2": "Berlín"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Cuál es el planeta más cercano al sol?",
+        "correcta": "Mercurio",
+        "incorrecta1": "Venus",
+        "incorrecta2": "Marte"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿En qué año llegó Cristóbal Colón a América?",
+        "correcta": "1492",
+        "incorrecta1": "1482",
+        "incorrecta2": "1502"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Cuál es el órgano más grande del cuerpo humano?",
+        "correcta": "La piel",
+        "incorrecta1": "El hígado",
+        "incorrecta2": "El corazón"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué gas es esencial para la respiración humana?",
+        "correcta": "Oxígeno",
+        "incorrecta1": "Hidrógeno",
+        "incorrecta2": "Nitrógeno"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?",
+        "correcta": "Miguel de Cervantes",
+        "incorrecta1": "Gabriel García Márquez",
+        "incorrecta2": "Lope de Vega"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál es el río más largo del mundo?",
+        "correcta": "Amazonas",
+        "incorrecta1": "Nilo",
+        "incorrecta2": "Misisipi"
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Cuál es la capital de Japón?",
+        "correcta": "Tokio",
+        "incorrecta1": "Kioto",
+        "incorrecta2": "Osaka"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué elemento químico tiene el símbolo 'O'?",
+        "correcta": "Oxígeno",
+        "incorrecta1": "Oro",
+        "incorrecta2": "Osmio"
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cuál es el animal terrestre más rápido?",
+        "correcta": "Guepardo",
+        "incorrecta1": "León",
+        "incorrecta2": "Tigre"
+    },
+    {
+        "id": 12,
+        "pregunta": "¿En qué continente se encuentra Egipto?",
+        "correcta": "África",
+        "incorrecta1": "Asia",
+        "incorrecta2": "Europa"
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "correcta": "Pacífico",
+        "incorrecta1": "Atlántico",
+        "incorrecta2": "Índico"
+    },
+    {
+        "id": 14,
+        "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+        "correcta": "1939",
+        "incorrecta1": "1914",
+        "incorrecta2": "1945"
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Cuál es el metal más abundante en la corteza terrestre?",
+        "correcta": "Aluminio",
+        "incorrecta1": "Hierro",
+        "incorrecta2": "Cobre"
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Qué instrumento mide la presión atmosférica?",
+        "correcta": "Barómetro",
+        "incorrecta1": "Termómetro",
+        "incorrecta2": "Higrómetro"
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Quién pintó la 'Mona Lisa'?",
+        "correcta": "Leonardo da Vinci",
+        "incorrecta1": "Pablo Picasso",
+        "incorrecta2": "Vincent van Gogh"
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Cuál es el órgano encargado de bombear la sangre?",
+        "correcta": "El corazón",
+        "incorrecta1": "Los pulmones",
+        "incorrecta2": "El hígado"
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Qué país es conocido como la tierra del sol naciente?",
+        "correcta": "Japón",
+        "incorrecta1": "China",
+        "incorrecta2": "Corea del Sur"
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Cuál es la lengua oficial de Brasil?",
+        "correcta": "Portugués",
+        "incorrecta1": "Español",
+        "incorrecta2": "Inglés"
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Qué planeta es conocido como el planeta rojo?",
+        "correcta": "Marte",
+        "incorrecta1": "Júpiter",
+        "incorrecta2": "Saturno"
+    },
+    {
+        "id": 22,
+        "pregunta": "¿En qué país se encuentra la Torre Eiffel?",
+        "correcta": "Francia",
+        "incorrecta1": "Italia",
+        "incorrecta2": "España"
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Cuál es el número de planetas en el sistema solar?",
+        "correcta": "8",
+        "incorrecta1": "7",
+        "incorrecta2": "9"
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Cuál es la molécula responsable de transportar oxígeno en la sangre?",
+        "correcta": "Hemoglobina",
+        "incorrecta1": "Glucosa",
+        "incorrecta2": "Colesterol"
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Qué invento hizo famoso a Thomas Edison?",
+        "correcta": "La bombilla",
+        "incorrecta1": "El teléfono",
+        "incorrecta2": "El automóvil"
+    },
+    {
+        "id": 26,
+        "pregunta": "¿En qué año cayó el Muro de Berlín?",
+        "correcta": "1989",
+        "incorrecta1": "1991",
+        "incorrecta2": "1985"
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Cuál es el símbolo químico del hierro?",
+        "correcta": "Fe",
+        "incorrecta1": "Ir",
+        "incorrecta2": "Hg"
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Qué país tiene el mayor número de habitantes?",
+        "correcta": "China",
+        "incorrecta1": "India",
+        "incorrecta2": "Estados Unidos"
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Quién escribió 'Cien años de soledad'?",
+        "correcta": "Gabriel García Márquez",
+        "incorrecta1": "Mario Vargas Llosa",
+        "incorrecta2": "Julio Cortázar"
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "correcta": "Everest",
+        "incorrecta1": "K2",
+        "incorrecta2": "Kangchenjunga"
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Cuál es el número atómico del carbono?",
+        "correcta": "6",
+        "incorrecta1": "12",
+        "incorrecta2": "8"
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Cuál es la moneda oficial de Japón?",
+        "correcta": "Yen",
+        "incorrecta1": "Won",
+        "incorrecta2": "Dólar"
+    },
+    {
+        "id": 33,
+        "pregunta": "¿En qué continente se encuentra Brasil?",
+        "correcta": "América del Sur",
+        "incorrecta1": "América del Norte",
+        "incorrecta2": "Europa"
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué gas se libera durante la fotosíntesis?",
+        "correcta": "Oxígeno",
+        "incorrecta1": "Dióxido de carbono",
+        "incorrecta2": "Nitrógeno"
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué país es conocido por sus canguros?",
+        "correcta": "Australia",
+        "incorrecta1": "Sudáfrica",
+        "incorrecta2": "Nueva Zelanda"
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué planeta es el más grande del sistema solar?",
+        "correcta": "Júpiter",
+        "incorrecta1": "Saturno",
+        "incorrecta2": "Urano"
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué estructura de ADN tiene forma de doble hélice?",
+        "correcta": "DNA",
+        "incorrecta1": "RNA",
+        "incorrecta2": "Proteína"
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Quién fue el primer hombre en pisar la luna?",
+        "correcta": "Neil Armstrong",
+        "incorrecta1": "Buzz Aldrin",
+        "incorrecta2": "Yuri Gagarin"
+    },
+    {
+        "id": 39,
+        "pregunta": "¿En qué país se encuentra el Taj Mahal?",
+        "correcta": "India",
+        "incorrecta1": "Pakistán",
+        "incorrecta2": "Irán"
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Cuál es el principal gas de efecto invernadero?",
+        "correcta": "Dióxido de carbono",
+        "incorrecta1": "Oxígeno",
+        "incorrecta2": "Metano"
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Qué órgano humano filtra la sangre?",
+        "correcta": "Riñón",
+        "incorrecta1": "Hígado",
+        "incorrecta2": "Pulmón"
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Cuál es el idioma oficial de Canadá?",
+        "correcta": "Inglés y francés",
+        "incorrecta1": "Inglés y español",
+        "incorrecta2": "Inglés y alemán"
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Cuál es la fórmula química del agua?",
+        "correcta": "H2O",
+        "incorrecta1": "CO2",
+        "incorrecta2": "NaCl"
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Qué planeta es conocido por sus anillos?",
+        "correcta": "Saturno",
+        "incorrecta1": "Neptuno",
+        "incorrecta2": "Urano"
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Qué tipo de animal es una ballena?",
+        "correcta": "Mamífero",
+        "incorrecta1": "Pez",
+        "incorrecta2": "Reptil"
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Qué país tiene la mayor cantidad de pirámides?",
+        "correcta": "Sudán",
+        "incorrecta1": "Egipto",
+        "incorrecta2": "México"
+    },
+    {
+        "id": 47,
+        "pregunta": "¿En qué año terminó la Primera Guerra Mundial?",
+        "correcta": "1918",
+        "incorrecta1": "1914",
+        "incorrecta2": "1920"
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Cuál es la moneda oficial del Reino Unido?",
+        "correcta": "Libra esterlina",
+        "incorrecta1": "Euro",
+        "incorrecta2": "Dólar"
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Cuál es el número pi aproximado?",
+        "correcta": "3.14",
+        "incorrecta1": "3.15",
+        "incorrecta2": "3.13"
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Qué invento se atribuye a Alexander Graham Bell?",
+        "correcta": "Teléfono",
+        "incorrecta1": "Radio",
+        "incorrecta2": "Televisión"
+    },
+    {
+        "id": 51,
+        "pregunta": "¿Qué animal es conocido como el rey de la selva?",
+        "correcta": "León",
+        "incorrecta1": "Tigre",
+        "incorrecta2": "Elefante"
+    },
+    {
+        "id": 52,
+        "pregunta": "¿En qué año comenzó la Revolución Francesa?",
+        "correcta": "1789",
+        "incorrecta1": "1776",
+        "incorrecta2": "1804"
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Cuál es el punto de ebullición del agua en grados Celsius?",
+        "correcta": "100",
+        "incorrecta1": "90",
+        "incorrecta2": "110"
+    },
+    {
+        "id": 54,
+        "pregunta": "¿Qué país se encuentra al sur de los Estados Unidos?",
+        "correcta": "México",
+        "incorrecta1": "Canadá",
+        "incorrecta2": "Brasil"
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Quién escribió 'La Odisea'?",
+        "correcta": "Homero",
+        "incorrecta1": "Sófocles",
+        "incorrecta2": "Eurípides"
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Cuál es el metal más pesado?",
+        "correcta": "Osmio",
+        "incorrecta1": "Plomo",
+        "incorrecta2": "Oro"
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Qué instrumento mide la temperatura?",
+        "correcta": "Termómetro",
+        "incorrecta1": "Barómetro",
+        "incorrecta2": "Anemómetro"
+    },
+    {
+        "id": 58,
+        "pregunta": "¿Cuál es el planeta más caliente del sistema solar?",
+        "correcta": "Venus",
+        "incorrecta1": "Mercurio",
+        "incorrecta2": "Marte"
+    },
+    {
+        "id": 59,
+        "pregunta": "¿Qué país es conocido por la Torre de Pisa?",
+        "correcta": "Italia",
+        "incorrecta1": "Francia",
+        "incorrecta2": "España"
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Qué elemento tiene el símbolo 'He'?",
+        "correcta": "Helio",
+        "incorrecta1": "Hidrógeno",
+        "incorrecta2": "Hafnio"
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Quién fue el primer presidente de Estados Unidos?",
+        "correcta": "George Washington",
+        "incorrecta1": "Thomas Jefferson",
+        "incorrecta2": "Abraham Lincoln"
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Cuál es la ciudad más grande de Brasil?",
+        "correcta": "São Paulo",
+        "incorrecta1": "Río de Janeiro",
+        "incorrecta2": "Brasilia"
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Qué órgano produce insulina?",
+        "correcta": "Páncreas",
+        "incorrecta1": "Hígado",
+        "incorrecta2": "Riñón"
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Cuál es el país más grande del mundo?",
+        "correcta": "Rusia",
+        "incorrecta1": "Canadá",
+        "incorrecta2": "China"
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Qué lengua se habla en Brasil?",
+        "correcta": "Portugués",
+        "incorrecta1": "Español",
+        "incorrecta2": "Francés"
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Qué país tiene la mayor superficie de bosques tropicales?",
+        "correcta": "Brasil",
+        "incorrecta1": "Indonesia",
+        "incorrecta2": "República Democrática del Congo"
+    },
+    {
+        "id": 67,
+        "pregunta": "¿Qué país es conocido por sus tulipanes?",
+        "correcta": "Países Bajos",
+        "incorrecta1": "Francia",
+        "incorrecta2": "Alemania"
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Qué gas se encuentra en mayor proporción en el aire que respiramos?",
+        "correcta": "Nitrógeno",
+        "incorrecta1": "Oxígeno",
+        "incorrecta2": "Dióxido de carbono"
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Quién escribió 'Romeo y Julieta'?",
+        "correcta": "William Shakespeare",
+        "incorrecta1": "Christopher Marlowe",
+        "incorrecta2": "Ben Jonson"
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Cuál es el país más pequeño del mundo?",
+        "correcta": "Ciudad del Vaticano",
+        "incorrecta1": "Mónaco",
+        "incorrecta2": "San Marino"
+    },
+    {
+        "id": 71,
+        "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "correcta": "1914",
+        "incorrecta1": "1918",
+        "incorrecta2": "1939"
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Qué tipo de animal es un pingüino?",
+        "correcta": "Ave",
+        "incorrecta1": "Mamífero",
+        "incorrecta2": "Reptil"
+    },
+    {
+        "id": 73,
+        "pregunta": "¿Qué instrumento se utiliza para medir el tiempo?",
+        "correcta": "Reloj",
+        "incorrecta1": "Cronómetro",
+        "incorrecta2": "Termómetro"
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Cuál es la capital de Australia?",
+        "correcta": "Canberra",
+        "incorrecta1": "Sídney",
+        "incorrecta2": "Melbourne"
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Qué país tiene la mayor cantidad de volcanes activos?",
+        "correcta": "Indonesia",
+        "incorrecta1": "Japón",
+        "incorrecta2": "Estados Unidos"
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Qué instrumento mide la velocidad del viento?",
+        "correcta": "Anemómetro",
+        "incorrecta1": "Barómetro",
+        "incorrecta2": "Higrómetro"
+    },
+    {
+        "id": 77,
+        "pregunta": "¿Cuál es el país más grande de África?",
+        "correcta": "Argelia",
+        "incorrecta1": "Sudán",
+        "incorrecta2": "República Democrática del Congo"
+    },
+    {
+        "id": 78,
+        "pregunta": "¿Qué animal es conocido por sus manchas negras y naranjas?",
+        "correcta": "Tigre",
+        "incorrecta1": "Leopardo",
+        "incorrecta2": "Jaguar"
+    },
+    {
+        "id": 79,
+        "pregunta": "¿En qué país se encuentra la Gran Muralla?",
+        "correcta": "China",
+        "incorrecta1": "Japón",
+        "incorrecta2": "Corea del Sur"
+    },
+    {
+        "id": 80,
+        "pregunta": "¿Qué órgano humano se encarga de la digestión?",
+        "correcta": "Estómago",
+        "incorrecta1": "Hígado",
+        "incorrecta2": "Páncreas"
+    },
+    {
+        "id": 81,
+        "pregunta": "¿Qué país es conocido por su industria de relojes?",
+        "correcta": "Suiza",
+        "incorrecta1": "Japón",
+        "incorrecta2": "Alemania"
+    },
+    {
+        "id": 82,
+        "pregunta": "¿Cuál es el desierto más grande del mundo?",
+        "correcta": "Sahara",
+        "incorrecta1": "Gobi",
+        "incorrecta2": "Kalahari"
+    },
+    {
+        "id": 83,
+        "pregunta": "¿Qué metal se utiliza principalmente en la fabricación de cables eléctricos?",
+        "correcta": "Cobre",
+        "incorrecta1": "Aluminio",
+        "incorrecta2": "Hierro"
+    },
+    {
+        "id": 84,
+        "pregunta": "¿Quién es conocido como el padre de la física moderna?",
+        "correcta": "Albert Einstein",
+        "incorrecta1": "Isaac Newton",
+        "incorrecta2": "Galileo Galilei"
+    },
+    {
+        "id": 85,
+        "pregunta": "¿Cuál es el país más grande de América del Sur?",
+        "correcta": "Brasil",
+        "incorrecta1": "Argentina",
+        "incorrecta2": "Perú"
+    },
+    {
+        "id": 86,
+        "pregunta": "¿Qué país es conocido por sus castillos y leyendas de dragones?",
+        "correcta": "Gales",
+        "incorrecta1": "Escocia",
+        "incorrecta2": "Irlanda"
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Qué gas es el más ligero?",
+        "correcta": "Hidrógeno",
+        "incorrecta1": "Helio",
+        "incorrecta2": "Oxígeno"
+    },
+    {
+        "id": 88,
+        "pregunta": "¿En qué país se encuentra el río Nilo?",
+        "correcta": "Egipto",
+        "incorrecta1": "Sudán",
+        "incorrecta2": "Etiopía"
+    },
+    {
+        "id": 89,
+        "pregunta": "¿Cuál es el metal más caro?",
+        "correcta": "Rodio",
+        "incorrecta1": "Oro",
+        "incorrecta2": "Platino"
+    },
+    {
+        "id": 90,
+        "pregunta": "¿Cuál es el océano más pequeño del mundo?",
+        "correcta": "Ártico",
+        "incorrecta1": "Antártico",
+        "incorrecta2": "Índico"
+    },
+    {
+        "id": 91,
+        "pregunta": "¿Cuál es el animal más grande del mundo?",
+        "correcta": "Ballena azul",
+        "incorrecta1": "Elefante africano",
+        "incorrecta2": "Tiburón ballena"
+    },
+    {
+        "id": 92,
+        "pregunta": "¿Qué país es conocido por sus vinos y champán?",
+        "correcta": "Francia",
+        "incorrecta1": "Italia",
+        "incorrecta2": "España"
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Qué ciudad es conocida como la Gran Manzana?",
+        "correcta": "Nueva York",
+        "incorrecta1": "Los Ángeles",
+        "incorrecta2": "Chicago"
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Qué instrumento se utiliza para medir la humedad?",
+        "correcta": "Higrómetro",
+        "incorrecta1": "Barómetro",
+        "incorrecta2": "Anemómetro"
+    },
+    {
+        "id": 95,
+        "pregunta": "¿En qué país se encuentra la ciudad de Venecia?",
+        "correcta": "Italia",
+        "incorrecta1": "Francia",
+        "incorrecta2": "España"
+    },
+    {
+        "id": 96,
+        "pregunta": "¿Qué animal es conocido por su cuello largo?",
+        "correcta": "Jirafa",
+        "incorrecta1": "Camello",
+        "incorrecta2": "Cebra"
+    },
+    {
+        "id": 97,
+        "pregunta": "¿Qué planeta es conocido como el gigante gaseoso?",
+        "correcta": "Júpiter",
+        "incorrecta1": "Saturno",
+        "incorrecta2": "Neptuno"
+    },
+    {
+        "id": 98,
+        "pregunta": "¿Cuál es el idioma más hablado en el mundo?",
+        "correcta": "Chino mandarín",
+        "incorrecta1": "Español",
+        "incorrecta2": "Inglés"
+    },
+    {
+        "id": 99,
+        "pregunta": "¿Qué animal es conocido por su trompa?",
+        "correcta": "Elefante",
+        "incorrecta1": "Rinoceronte",
+        "incorrecta2": "Hipopótamo"
+    },
+    {
+        "id": 100,
+        "pregunta": "¿Qué país es conocido por sus saunas?",
+        "correcta": "Finlandia",
+        "incorrecta1": "Suecia",
+        "incorrecta2": "Noruega"
+    }
+]

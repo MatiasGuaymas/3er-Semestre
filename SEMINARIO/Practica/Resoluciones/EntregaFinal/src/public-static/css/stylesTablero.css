@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.encabezado {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #a0b5eb 0%, #ea52f8 0%, #0066ff 100%);
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: inherit;
+    font-family: inherit;
+    background-color: white;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+button[disabled]:hover {
+    cursor: not-allowed !important;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.boton {
+    background: none;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+
+.boton:hover {
+    color: #fff;
+}
+
+.boton::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.btn1::before {
+    transform: scaleY(0);
+}
+
+.btn1:hover::before {
+    transform: scaleY(1);
+}
+
+.container-perfiles {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jugador {
+    flex-basis: 30%;
+    border: 3px solid;
+    position: relative;
+}
+
+.vs {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.titulosJugadores {
+    font-size: 1.5rem;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.container-numeros {
+    margin: 0.1rem;
+}
+
+.tirarDados {
+    margin-left: 0.3rem;
+    margin-bottom: 10px;
+}
+
+.juego {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tabla {
+    margin: 1vh;
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    font-size: 40px;
+}
+
+.tablero {
+    width: 50vh;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: white;
+    border: solid thin black;
+}
+
+.texto {
+    border: 1px solid black;
+    cursor: default;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.entrada,
+.salida {
+    font-weight: 600;
+    width: 30vh;
+    border: 1px solid black;
+    font-size: 2vw;
+    text-align: center;
+    cursor: default;
+    margin-top: 0%;
+}
+
+.entrada {
+    margin-bottom: 0%;
+}
+
+.jugador>img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 10px;
+    width: 3vw;
+    height: 3vw;
+}
+
+.partidaActual,
+.turnoActual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.turnoActual {
+    flex-direction: column;
+}
+
+.opcion-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.opcion-container label {
+    margin-left: 5px;
+}
+
+#copiarId {
+    margin: 1.5rem;
+}
+
+.correcta {
+    color: green;
+}
+
+.incorrecta {
+    color: red;
+}
+
+#turnoJugador {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.container-preguntas {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.botones {
+    margin: 10px;
+}
+
+.audio {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#alerta {
+    background: white;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10 px 5px 0 #00000022;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    transform: translateX(-50%);
+}
+
+#alertaBoton {
+    border: 1px solid #333;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+}

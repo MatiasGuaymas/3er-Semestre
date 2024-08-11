@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "type": "automóvil",
+    "distance": 15000,
+    "fuelConsumption": 10
+  },
+  {
+    "id": 2,
+    "type": "bicicleta",
+    "distance": 300
+  },
+  {
+    "id": 3,
+    "type": "motocicleta",
+    "distance": 5000,
+    "fuelConsumption": 3
+  },
+  {
+    "id": 4,
+    "type": "automóvil",
+    "distance": 20000,
+    "fuelConsumption": 12
+  },
+  {
+    "id": 5,
+    "type": "automóvil",
+    "distance": 12000,
+    "fuelConsumption": 8
+  },
+  {
+    "id": 6,
+    "type": "automóvil",
+    "distance": 18000,
+    "fuelConsumption": 9
+  },
+  {
+    "id": 7,
+    "type": "automóvil",
+    "distance": 25000,
+    "fuelConsumption": 11
+  },
+  {
+    "id": 8,
+    "type": "automóvil",
+    "distance": 10000,
+    "fuelConsumption": 7
+  },
+  {
+    "id": 9,
+    "type": "bicicleta",
+    "distance": 500
+  },
+  {
+    "id": 10,
+    "type": "bicicleta",
+    "distance": 700
+  },
+  {
+    "id": 11,
+    "type": "bicicleta",
+    "distance": 450
+  },
+  {
+    "id": 12,
+    "type": "bicicleta",
+    "distance": 800
+  },
+  {
+    "id": 13,
+    "type": "bicicleta",
+    "distance": 600
+  },
+  {
+    "id": 14,
+    "type": "motocicleta",
+    "distance": 7000,
+    "fuelConsumption": 4
+  },
+  {
+    "id": 15,
+    "type": "motocicleta",
+    "distance": 3000,
+    "fuelConsumption": 2
+  },
+  {
+    "id": 16,
+    "type": "motocicleta",
+    "distance": 8000,
+    "fuelConsumption": 5
+  },
+  {
+    "id": 17,
+    "type": "motocicleta",
+    "distance": 6000,
+    "fuelConsumption": 4
+  },
+  {
+    "id": 18,
+    "type": "motocicleta",
+    "distance": 9000,
+    "fuelConsumption": 6
+  },
+  {
+    "id": "1000",
+    "type": "Patineta",
+    "distance": "2",
+    "fuelConsumption": "0"
+  },
+  {
+    "id": "999",
+    "type": "Avion",
+    "distance": "999",
+    "fuelConsumption": "999"
+  },
+  {
+    "id": "19999",
+    "type": "Barco",
+    "distance": "1999",
+    "fuelConsumption": "123123"
+  },
+  {
+    "id": "1000",
+    "type": "Papa",
+    "distance": "0",
+    "fuelConsumption": "0"
+  }
+]

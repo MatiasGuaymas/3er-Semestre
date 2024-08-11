@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/s/css/stylesTablero.css">
+    <link rel="icon" href="https://www.info.unlp.edu.ar/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title> Tablero </title>
+</head>
+
+<body onload="iniciar()">
+
+    <div class="encabezado">
+        <a href="http://localhost:3000/" style="color: inherit; text-decoration: none">
+            <h1>Entrega Final JS 2024</h1>
+        </a>
+    </div>
+
+    <div class="partidaActual">
+        <p id="idPartida"> </p>
+        <button id="copiarId" class="boton btn1"> Copiar </button>
+    </div>
+
+    <div class="container-perfiles">
+        <div class="jugador jugador1" id="jugador1"
+            style="border-color: <%= color1 %>; box-shadow: 0 15px 15px -15px <%= color1 %>">
+            <p class="titulosJugadores">Jugador 1: <%= nombre1 %>
+            </p>
+            <button type="submit" name="botonTirar" id="botonTirarJugador1" class="tirarDados">TIRAR</button>
+            <div id="container-numeros-jugador1" class="container-numeros"></div>
+        </div>
+        <p class="vs">vs.</p>
+        <div class="jugador jugador2" id="jugador2"
+            style="border-color: <%= color2 %>; box-shadow: 0 15px 15px -15px <%= color2 %>">
+            <p class="titulosJugadores" id="nombre2">Jugador 2: <%= nombre2 %>
+            </p>
+            <button type="submit" name="botonTirar" id="botonTirarJugador2" class="tirarDados">TIRAR</button>
+            <div id="container-numeros-jugador2" class="container-numeros"></div>
+        </div>
+    </div>
+
+    <div class="turnoActual" id="turnoActual">
+        <p id="turnoJugador"></p>
+    </div>
+
+    <div class="juego">
+        <div class="tabla" id="tabla">
+            <p class="entrada" id="entrada"> Inicio</p>
+            <div class="tablero">
+                <% for (let i=1;i<21;i++) {%>
+                    <p class="texto" id=<%=i%>> <%=i%>
+                    </p>
+                    <% }%>
+            </div>
+            <p class="salida" id="salida"> Salida</p>
+            <div class="container-preguntas" id="container-preguntas">
+                <h3> Pregunta: </h3>
+                <div class="botones">
+                    <button type="submit" style="display: none;" id="enviarPregunta" class="boton btn1"> Enviar
+                    </button>
+                    <button type="submit" style="display: none;" id="escucharRespuesta" class="boton btn1"> Escuchar
+                        Pregunta </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/s/scriptTablero.js"></script>
+</body>
+
+</html>

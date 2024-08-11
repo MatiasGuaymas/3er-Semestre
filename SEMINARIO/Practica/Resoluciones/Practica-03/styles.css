@@ -1,0 +1,125 @@
+* {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 0;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+h1,
+h2,
+h3 {
+    color: #F7BF01;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#cargando{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+#cargando::before,
+#cargando::after {
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+}
+
+#cargando::before {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #F7BF01 0%, #A78E5C 100%);
+}
+
+#cargando::after {
+    width: 85%;
+    height: 85%;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#containerCharacter, #containerBotones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.character-card {
+    width: 18%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #f3eb1f;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#containerBotones {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-32 {
+    background-color: #fff000;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 10px;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .2), 0 3px 8px 0 rgba(0, 0, 0, .15);
+}
+
+.button-32:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
