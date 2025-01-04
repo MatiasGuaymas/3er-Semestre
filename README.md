@@ -12,7 +12,7 @@ Espero que les sea de ayuda, y muchos éxitos. 😀
 
 ## FOD
 
-* [**Prácticas (con explicaciones) + Modelos de parciales**](https://github.com/MatiasGuaymas/FOD)
+* [**Prácticas Resueltas (con explicaciones) + Modelos de parciales**](https://github.com/MatiasGuaymas/FOD)
 
 * [**Teoría**](https://github.com/MatiasGuaymas/3er-Semestre/tree/main/FOD/Teoria)
 
